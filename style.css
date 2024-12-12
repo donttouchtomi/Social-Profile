@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialProfile {
+    background-color: hsl(0, 0%, 12%);
+    padding: 26px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.profileBio img  {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.profileBio h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.profileBio p {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+
+.profileBio p:nth-child(4){
+    color: hsl(0, 0%, 100%);
+}
+
+.profileBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profileBtn .btn {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 12px ;
+    transition: .5s linear;
+}
+
+.profileBtn .btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
